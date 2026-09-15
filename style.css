@@ -1,0 +1,173 @@
+:root{
+  --bg:#f7f2eb;
+  --paper:#fffdf9;
+  --green:#46624f;
+  --green-dark:#2f4738;
+  --sage:#dfe8df;
+  --nude:#e9d6c8;
+  --sand:#efe6da;
+  --ink:#24302a;
+  --muted:#6f766f;
+  --line:#ddd7ce;
+  --white:#ffffff;
+  --shadow:0 18px 50px rgba(50,65,55,.08);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"DM Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.6;
+}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,calc(100% - 40px));margin:auto}
+
+.site-header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,253,249,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(221,215,206,.8);
+}
+.nav-wrap{height:82px;display:flex;align-items:center;gap:28px}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto}
+.brand-mark{font-size:34px;color:#9b6b4a;transform:rotate(-15deg)}
+.brand strong{
+  display:block;font-family:"Playfair Display",serif;
+  font-size:25px;line-height:1.05
+}
+.brand small{display:block;text-transform:uppercase;letter-spacing:.18em;font-size:10px;color:#866a56}
+.nav{display:flex;gap:28px;font-size:14px;font-weight:600}
+.nav a:hover{color:var(--green)}
+.menu-toggle{display:none;background:none;border:0;font-size:26px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:48px;padding:0 22px;border-radius:12px;
+  font-weight:700;font-size:14px;transition:.2s ease;
+}
+.btn-primary{background:var(--green);color:white;box-shadow:0 8px 24px rgba(70,98,79,.18)}
+.btn-primary:hover{background:var(--green-dark);transform:translateY(-1px)}
+.btn-outline{border:1px solid var(--green);color:var(--green);background:rgba(255,255,255,.6)}
+.btn-outline:hover{background:var(--sage)}
+.hero{
+  background:
+    radial-gradient(circle at 0% 20%, rgba(233,214,200,.65), transparent 34%),
+    linear-gradient(180deg,#fffdfa 0%,#f5eee5 100%);
+  padding:72px 0 58px;
+}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:48px;align-items:center}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.18em;color:#8b6b56}
+h1,h2,h3{margin:0;color:#21322b}
+h1,h2{font-family:"Playfair Display",serif}
+h1{font-size:clamp(44px,5.2vw,68px);line-height:1.02;letter-spacing:-.03em}
+h2{font-size:clamp(34px,4vw,48px);line-height:1.1}
+.hero-copy>p{font-size:19px;color:#58615c;max-width:620px;margin:24px 0}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
+.benefits div{padding:16px;border-top:1px solid var(--line)}
+.benefits span{display:block;font-size:20px;margin-bottom:6px}
+.benefits b,.benefits small{display:block}
+.benefits small{color:var(--muted);font-size:12px}
+.hero-collage{
+  display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:190px 190px;
+  gap:10px;
+}
+.photo,.card-media{
+  min-height:120px;border-radius:20px;
+  display:flex;align-items:flex-end;padding:18px;
+  color:white;font-weight:700;letter-spacing:.02em;
+  background-size:cover;background-position:center;
+  box-shadow:var(--shadow);
+}
+.photo-1{background-image:linear-gradient(to top,rgba(28,37,31,.62),rgba(28,37,31,0) 45%),url("images/perfumes.jpg")}
+.photo-2{background-image:linear-gradient(to top,rgba(28,37,31,.62),rgba(28,37,31,0) 45%),url("images/cremes.jpg")}
+.photo-3{background-image:linear-gradient(to top,rgba(28,37,31,.62),rgba(28,37,31,0) 45%),url("images/shampoos.jpg")}
+.photo-4{background-image:linear-gradient(to top,rgba(28,37,31,.62),rgba(28,37,31,0) 45%),url("images/sabonetes.jpg")}
+.photo-5{background-image:linear-gradient(to top,rgba(28,37,31,.62),rgba(28,37,31,0) 45%),url("images/cuidados.jpg")}
+.photo-6{background-image:linear-gradient(to top,rgba(28,37,31,.62),rgba(28,37,31,0) 45%),url("images/presentes.jpg")}
+.section{padding:82px 0}
+.products{background:#fff}
+.section-heading{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:34px}
+.section-heading p{max-width:480px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 10px 35px rgba(65,55,45,.05)}
+.card-media{height:190px;border-radius:0;align-items:flex-end}
+.soap{background-image:linear-gradient(to top,rgba(28,37,31,.55),rgba(28,37,31,0) 45%),url("images/sabonetes.jpg")}
+.cream{background-image:linear-gradient(to top,rgba(28,37,31,.55),rgba(28,37,31,0) 45%),url("images/cremes.jpg")}
+.perfume{background-image:linear-gradient(to top,rgba(28,37,31,.55),rgba(28,37,31,0) 45%),url("images/perfumes.jpg")}
+.shampoo{background-image:linear-gradient(to top,rgba(28,37,31,.55),rgba(28,37,31,0) 45%),url("images/shampoos.jpg")}
+.card-body{padding:20px}
+.card h3{font-family:"Playfair Display",serif;font-size:26px}
+.card p{color:var(--muted);margin-bottom:0}
+.center{text-align:center;margin-top:34px}
+.about{background:var(--bg)}
+.about-grid{display:grid;grid-template-columns:1.4fr .6fr;gap:50px;align-items:center}
+.about p{font-size:18px;color:#58615c}
+.quote-box{
+  background:var(--green);color:white;border-radius:24px;padding:38px;box-shadow:var(--shadow)
+}
+.quote-box span{font-family:"Playfair Display",serif;font-size:70px;line-height:.6;opacity:.5}
+.quote-box p{color:white;font-size:25px;font-family:"Playfair Display",serif;margin-bottom:0}
+.contact{background:#fff}
+.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:48px}
+.contact-list{list-style:none;padding:0;margin:28px 0}
+.contact-list li{
+  display:grid;grid-template-columns:140px 1fr;gap:20px;
+  padding:14px 0;border-bottom:1px solid var(--line)
+}
+.contact-list span{color:var(--muted)}
+.contact-panel{
+  background:linear-gradient(150deg,var(--sage),#f5eee7);
+  border-radius:24px;padding:34px
+}
+.contact-panel h3{font-family:"Playfair Display",serif;font-size:30px;margin-bottom:16px}
+.contact-panel a{
+  display:flex;justify-content:space-between;gap:20px;padding:16px 0;
+  border-bottom:1px solid rgba(70,98,79,.18);font-weight:700
+}
+.contact-panel a span{font-weight:500;color:var(--muted)}
+.footer{background:var(--green-dark);color:white;padding:26px 0}
+.footer-grid{display:grid;grid-template-columns:1fr 2fr auto;gap:30px;align-items:center}
+.footer strong{display:block;font-family:"Playfair Display",serif;font-size:22px}
+.footer small{display:block;text-transform:uppercase;letter-spacing:.16em;opacity:.75;font-size:10px}
+.footer p{opacity:.85;margin:0}
+.footer a{font-weight:700}
+
+@media (max-width:900px){
+  .top-cta,.nav{display:none}
+  .menu-toggle{display:block}
+  .nav.open{
+    display:flex;position:absolute;top:82px;left:20px;right:20px;
+    flex-direction:column;background:var(--paper);padding:20px;border-radius:16px;
+    box-shadow:var(--shadow)
+  }
+  .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .section-heading{display:block}
+  .section-heading p{margin-top:14px}
+  .footer-grid{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .container{width:min(100% - 28px,1180px)}
+  .hero{padding-top:44px}
+  h1{font-size:44px}
+  .hero-collage{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(3,145px)}
+  .benefits{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr}
+  .contact-list li{grid-template-columns:1fr;gap:2px}
+  .hero-actions{flex-direction:column}
+  .btn{width:100%}
+}
+
+
+.photo span,.card-media span{
+  text-shadow:0 2px 10px rgba(0,0,0,.35);
+}
+.photo,.card-media{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
