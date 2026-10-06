@@ -1,16 +1,13 @@
-# Dani Portilho — Site Etapa 4
+# Dani Portilho — Etapa 4.1 corrigida
 
-## O que mudou
-- Vitrine com preços promocionais conferidos em 05/10/2026 nas páginas oficiais da Natura.
-- Preço anterior, preço atual e percentual de desconto.
-- Botões “Comprar com a Dani” e “Tirar dúvida”.
-- Presentes por faixa de preço.
-- Rastreamento básico de cliques em Loja e WhatsApp, preparado para `dataLayer`/Google Analytics.
-- Nenhum endereço residencial é exibido.
+Correções principais:
+- cards da vitrine agora ficam no próprio `index.html` e não dependem de JavaScript para aparecer;
+- caminhos de assets e script são relativos, adequados ao subdiretório do GitHub Pages;
+- ícones de WhatsApp, Instagram e Facebook padronizados com Font Awesome;
+- links externos usam `target="_blank"` + `rel="noopener noreferrer"`;
+- links sociais têm `aria-label` e foco visível;
+- botão flutuante usa o ícone correto do WhatsApp;
+- JavaScript ficou restrito a menu e métricas básicas.
 
-## Atualizar ofertas
-Abra `script.js` e edite somente a lista `OFERTAS` (campos `de`, `por`, `desconto`, título e descrição).
-Como campanhas e estoque mudam, revise os preços antes de divulgar uma promoção.
-
-## Publicar
-Substitua no repositório GitHub Pages: `index.html`, `styles.css`, `script.js`, `README.md` e mantenha a pasta `assets`.
+## Publicação
+Envie todos os arquivos e a pasta `assets` para a raiz do repositório `dani-portilho`, substituindo os atuais.
