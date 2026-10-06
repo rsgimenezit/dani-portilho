@@ -1,21 +1,19 @@
-# Dani Portilho — novo site
-
-Site estático responsivo, pronto para GitHub Pages.
+# Dani Portilho — Site de vendas (Etapa 2)
 
 ## Publicação
-Substitua os arquivos atuais do repositório `dani-portilho` por:
-- `index.html`
-- `styles.css`
-- `script.js`
+Substitua no repositório `dani-portilho` os arquivos `index.html`, `styles.css` e `script.js` e envie também a pasta `assets`.
 
-Depois faça commit/push. O GitHub Pages atualizará a página.
+## Atualizar as Ofertas da Semana
+Abra `script.js` e altere somente a constante `OFERTAS` no começo do arquivo. Cada card possui: `selo`, `titulo`, `descricao`, `imagem` e `posicao`.
 
-## Antes de publicar
-Confira em `index.html`:
-- WhatsApp: 11 98418-1351
-- E-mail: naturadaniportilho@gmail.com
-- Instagram: @naturadaniportilho
-- URL da Minha Loja Natura
+Os cards não usam preços fixos propositalmente, pois preço e disponibilidade podem mudar. O botão direciona para a Minha Loja Natura da Dani.
 
-## Atualizações futuras
-As categorias apontam para a Minha Loja Natura para evitar preços ou disponibilidade desatualizados no site. Campanhas temporárias podem ser adicionadas como uma seção própria sem alterar a estrutura principal.
+## Imagem
+A imagem em `assets/beleza-botanica.png` foi criada especialmente para este site, inspirada em fotografia premium de beleza e botânica. Ela não copia uma campanha oficial e não contém logotipos de terceiros.
+
+## Privacidade
+Nenhum endereço residencial é exibido no site.
+
+
+## Etapa 3 — Campeões de venda
+A seção principal agora traz 8 produtos/linhas selecionados a partir da área Mais Vendidos da Natura consultada em outubro de 2026. Preços não são fixados no site para evitar promoções desatualizadas. Para trocar os itens, edite apenas `OFERTAS` em `script.js`.
