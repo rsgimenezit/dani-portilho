@@ -1,21 +1,21 @@
-SITE DANI PORTILHO - VERSÃO 2 (MULTIPÁGINAS)
+SITE DANI PORTILHO - VERSÃO 3 (16 PÁGINAS, SEM PREÇOS)
 
 COMO PUBLICAR NO GITHUB (repositório dani-portilho)
 1. Apague do repositório os arquivos antigos: index.html, styles.css, script.js,
-   a pasta images/ e assets/beleza-botanica.png (as fotos antigas tinham ~14 MB).
+   a pasta images/ e assets/beleza-botanica.png.
 2. Envie TODO o conteúdo desta pasta para a raiz do repositório.
 3. Aguarde 1 a 2 minutos e abra https://rsgimenezit.github.io/dani-portilho/
 
 PÁGINAS
-index.html, ofertas.html, perfumaria.html, corpo-e-banho.html, cabelos.html,
-presentes.html (assistente de presentes), como-comprar.html (perguntas frequentes),
-sobre.html, contato.html (formulário que abre o WhatsApp), 404.html, sitemap.xml
+Início, Mais vendidos (ofertas.html), Perfumaria, Corpo & banho, Cabelos,
+Rosto & make, Presentes (assistente), Descubra seu perfume (teste),
+Monte sua rotina, Datas especiais (contagem para a próxima data),
+Linhas Natura, Lista VIP, Como comprar, Sobre, Contato e 404. Mais o sitemap.xml.
 
-PARA ATUALIZAR A CADA CICLO
-Envie para o Hark os produtos, preços e links do novo ciclo: ele atualiza
-todas as páginas de uma vez e devolve um novo ZIP.
+Todos os formulários e testes abrem o WhatsApp da Dani com a mensagem pronta.
+Nenhum preço aparece no site: a cliente vê os valores do ciclo na Minha Loja Natura.
 
 PENDENTE
 - Foto real da Dani (hoje aparece o monograma "DP").
-- Link da página da Dani no Facebook (o antigo apontava para facebook.com genérico e foi removido).
-- Depoimentos reais de clientes, se ela tiver.
+- Link da página da Dani no Facebook.
+- Confirmar com a Dani que ela vai enviar as novidades da Lista VIP.
